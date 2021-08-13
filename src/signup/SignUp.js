@@ -90,7 +90,7 @@ export default function SignUp({ setHasSignedUp }) {
       setIsValid(true);
     }
     const payload = { firstName, lastName, email, msg };
-    axios.post("http://localhost:8080", payload).then((res) => {
+    axios.post("https://common-form-bakend.herokuapp.com/", payload).then((res) => {
       setHasSignedUp(true);
     });
   };
