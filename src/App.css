@@ -1,0 +1,67 @@
+.easter-egg {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: url(https://i.gifer.com/6k2.gif);
+}
+
+.position-relative {
+  position: relative;
+}
+.error{
+  font-size: 14px;
+  color: red;
+  margin: 0.5rem 1px;
+  letter-spacing: 1px;
+}
+
+.congrats {
+  top: 50%;
+  transform: translatey(-50%);
+  max-width: 90vw;
+  color: #3f51b5;
+  font-size: 3rem;
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.congrats span{
+  display: block;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2ff;
+}
+
+main {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+}
+
+/* 
+
+    background:url(https://media.giphy.com/headers/shanebeam/myU7u7UKroOg.gif);
+https://c.tenor.com/3HrcAdrKXigAAAAM/cute-kawaii.gif
+
+
+
+
+
+
+
+
+
+
+
+
+*/
